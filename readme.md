@@ -28,3 +28,10 @@ Elles se doivent d'être exécuter dans l'ordre indiqué.
 7. ajouter un champ description, type text not null
 8. `symfony console make:migration`
 9. `symfony console doctrine:migrations:migrate`
+
+
+## Question 3
+
+1. `composer require fakerphp/faker` installation faker
+2. `composer require --dev orm-fixtures` install orm fixture
+3. après avoir crée les fixtures, executer `symfony console doctrine:fixtures:load`
